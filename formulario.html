@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <style>
+      form {
+        margin: 0 auto;
+        width: 400px;
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;  
+        background-color: aquamarine; 
+        font-family: system-ui;    
+      }
+      input{
+        width: 350px;
+        border-block-end-color: black;
+      }
+      textarea{
+        width: 350px;
+        border-block-end-color: black;
+        
+      }
+      .boton{
+        width:70px;
+        height:30px;
+        background-color: grey;
+        border-radius: 20px;
+        border-block-end-color: white;
+        
+      }
+      
+    </style>
+  </head>
+  <body>
+    <form>
+      <p>Nombre: </p>
+      <input type="text" name="nombre" value="" required/>
+      <p>Email: </p>
+      <input type="email" name="email" value="" required/>
+      <p>Comentario: </p>
+      <textarea name="textarea"  rows="10" cols="53" required>Escriba un comentario...</textarea>
+      <br/>
+      <input type="submit" class= "boton" value="Enviar"/>
+  </form>
+  </body>
+</html>
